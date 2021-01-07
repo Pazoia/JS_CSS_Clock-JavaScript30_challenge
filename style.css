@@ -39,7 +39,7 @@ body {
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 1.22, 0, 1.22);
 }
 
 .min-hand {
@@ -51,7 +51,7 @@ body {
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 1.22, 0, 1.22);
 }
 
 .second-hand {
@@ -63,5 +63,5 @@ body {
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 1.22, 0, 1.22);
 }
