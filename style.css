@@ -36,6 +36,10 @@ body {
     background: black;
     position: absolute;
     top: 60%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: linear;
 }
 
 .min-hand {
@@ -44,6 +48,10 @@ body {
     background: black;
     position: absolute;
     top: 60%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: linear;
 }
 
 .second-hand {
@@ -52,4 +60,8 @@ body {
     background: red;
     position: absolute;
     top: 60%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: linear;
 }
